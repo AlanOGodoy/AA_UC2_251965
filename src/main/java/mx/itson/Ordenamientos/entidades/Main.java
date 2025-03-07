@@ -15,18 +15,19 @@ public class Main {
 
         // Imprime el arreglo original (O(n))
         System.out.print("Arreglo original: ");
-        for (int i : arreglo) { // O(n) iteraciones para imprimir el arreglo
-            System.out.print(i + " "); // O(1) por cada iteración
+        for (int i : arreglo) { // O(n) iteraciones para imprimir el arreglo = n
+            System.out.print(i + " "); // O(1) por cada iteración = 7
         }
-        System.out.println(); // O(1)
+        System.out.println(); // O(1) = 1
 
         // Llamada al método de ordenamiento burbuja desde la clase Ordenamiento (O(n²))
         Ordenamientos.burbuja(arreglo);  // O(n²) por el método de ordenamiento
 
         // Imprime el arreglo ordenado (O(n))
         System.out.print("Arreglo ordenado: ");
-        for (int i : arreglo) { // O(n) iteraciones para imprimir el arreglo
-            System.out.print(i + " "); // O(1) por cada iteración
+        for (int i : arreglo) { // O(n) iteraciones para imprimir el arreglo = n
+            System.out.print(i + " "); // O(1) por cada iteración = 7
+            // = 14 + n2
         }
         
     }
