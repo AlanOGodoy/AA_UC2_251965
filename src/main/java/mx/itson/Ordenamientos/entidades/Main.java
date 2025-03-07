@@ -29,4 +29,6 @@ public class Main {
             System.out.print(i + " "); // O(1) por cada iteración
         }
     }
+    
 }
+
