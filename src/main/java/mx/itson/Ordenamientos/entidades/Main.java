@@ -28,7 +28,9 @@ public class Main {
         for (int i : arreglo) { // O(n) iteraciones para imprimir el arreglo
             System.out.print(i + " "); // O(1) por cada iteración
         }
+        
     }
+    
     
 }
 
